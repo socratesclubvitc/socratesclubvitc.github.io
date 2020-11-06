@@ -127,10 +127,10 @@ a {
     }
 
     .nav-item {
-        border-bottom: #f5f4f0 2px dashed;
+        border-bottom: #ecebe4 2px dashed;
     }
     .nav-item:hover {
-        border-bottom: #ffffff 2px dashed;
+        border-bottom: #ffffff 2px solid;
         color: #ffffff;
     }
 }

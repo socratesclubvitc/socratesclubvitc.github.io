@@ -1,2 +1,2 @@
 # socratesclubvitc.github.io
-(WIP) website for Socrates Club, VIT Chennai
+(WIP) website for the Socrates Club, VIT Chennai

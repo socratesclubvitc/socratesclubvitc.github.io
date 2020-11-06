@@ -94,7 +94,7 @@ a {
 }
 
 #soc-beard:active {
-    animation: shake 0.5s;
+    animation: shake 1s;
     animation-iteration-count: 1;
 }
 
@@ -117,4 +117,20 @@ a {
 #home-link {
     width: 25%;
     height: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #303030;
+        font-family: 'Inter', sans-serif;
+        color: #ecebe4;
+    }
+
+    .nav-item {
+        border-bottom: #f5f4f0 2px dashed;
+    }
+    .nav-item:hover {
+        border-bottom: #ffffff 2px dashed;
+        color: #ffffff;
+    }
 }

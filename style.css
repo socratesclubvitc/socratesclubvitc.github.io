@@ -7,8 +7,15 @@ body {
 }
 
 #content {
-    width: 70%;
+    width: 65%;
+    max-width: 65%;
     border-radius: 10px;
+}
+
+.text {
+    padding-top: 10px;
+    margin-top: 10px;
+    font-size: 1.3em;
 }
 
 #banner {

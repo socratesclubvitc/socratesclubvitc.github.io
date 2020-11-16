@@ -7,8 +7,25 @@ body {
 }
 
 #content {
-    width: 70%;
+    width: 65%;
+    max-width: 65%;
     border-radius: 10px;
+}
+
+.text {
+    margin: 4px;
+    font-size: 1.3em;
+    line-height: 1.4;
+}
+
+.emphasised {
+    font-weight: 600;
+}
+
+.heading {
+    font-size: 2em;
+    text-align: center;
+    margin: 15px;
 }
 
 #banner {
@@ -42,7 +59,7 @@ nav {
 .nav-item {
     height: 12%;
     font-size: 2em;
-    margin: 10px;
+    margin: 20px;
     transition-duration: 0.2s;
     text-align: center;
     border-bottom: #404040 2px dashed;
@@ -61,23 +78,22 @@ a {
     color: inherit;
 }
 
-
-@media only screen and (max-width: 600px) {
-    #content {
-        width: 95%;
-    }
-    .nav-item {
-        font-size: 1em;
-    }
-    #banner img {
-        width: 30%;
-        height: auto;
-    }
-    #soc-beard {
-        width: 30%;
-        transform: translate(0,3px);
-    }
+.text a {
+    color: #027fe6;
+    border-bottom: 2px dashed;
+    transition-duration: 0.2s;
 }
+
+li {
+    line-height: 1.6;
+}
+
+.text a:hover {
+    color: #027fe6;
+    transition-duration: 0.2s;
+    border-bottom: 2px solid;
+}
+
 
 @keyframes shake {
     0% { transform: translate(2px, 2px) rotate(0deg); }
@@ -119,6 +135,32 @@ a {
     height: auto;
 }
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-img {
+    flex: 33.3%;
+    max-width: calc(33.3% - 10px);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.gallery-img img {
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    padding: 5px;
+}
+.text-centered {
+    text-align: center;
+}
+
+
 @media (prefers-color-scheme: dark) {
     body {
         background: #303030;
@@ -132,5 +174,30 @@ a {
     .nav-item:hover {
         border-bottom: #ffffff 2px solid;
         color: #ffffff;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #content {
+        width: 95%;
+    }
+    .nav-item {
+        font-size: 1em;
+    }
+    #banner img {
+        width: 30%;
+        height: auto;
+    }
+    #soc-beard {
+        width: 30%;
+        transform: translate(0,3px);
+    }
+    .gallery-img {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .heading {
+        font-size: 1.5em;
     }
 }

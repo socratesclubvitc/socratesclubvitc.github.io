@@ -183,6 +183,7 @@ li {
     }
     .nav-item {
         font-size: 1em;
+        margin: 10px;
     }
     #banner img {
         width: 30%;

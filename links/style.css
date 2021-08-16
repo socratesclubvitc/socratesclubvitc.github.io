@@ -1,0 +1,60 @@
+* {
+    font-family: 'STIX Two Text', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #303030;
+}
+
+#landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.landing-btn {
+    max-width: 40vw;
+    min-width: 40vw;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #cc9e49;
+    margin: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 0.25rem;
+}
+
+.landing-btn:hover {
+    filter:brightness(1.15);
+}
+
+@media screen and (max-aspect-ratio: 1/1) {
+    .container {
+        max-width: 90%;
+    }
+
+    #landing-container {
+        max-width: 100%;
+    }
+
+    .landing-btn {
+        max-width: 80vw;
+        min-width: 80vw;
+        min-height: 10vh;
+    }
+}

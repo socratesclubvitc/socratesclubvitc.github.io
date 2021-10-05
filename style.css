@@ -47,7 +47,7 @@ a {
 }
 
 hr.thematic_break {
-    border-top: 1px dashed #ffdcc4;
+    border-top: 2px dashed #ffdcc4;
 }
 
 @media not all and (hover: none) {

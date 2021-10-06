@@ -46,10 +46,6 @@ a {
     color: white;
 }
 
-hr.thematic_break {
-    border-top: 1px dashed #ffdcc4;
-}
-
 @media not all and (hover: none) {
     .nav-link:not(.current):hover {
         background: #cc9e49;
@@ -84,6 +80,10 @@ hr.thematic_break {
 }
 
 .body-contents>h2 {
+    text-align: center;
+}
+
+.body-contents>.event-poster {
     text-align: center;
 }
 
